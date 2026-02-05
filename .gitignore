@@ -1,0 +1,97 @@
+####################################
+# OS / Editor
+####################################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.log
+
+####################################
+# ENV & SECRETS
+####################################
+.env
+.env.*
+!.env.example
+
+####################################
+# Node / Backend (MERN)
+####################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+Backend/node_modules/
+Backend/src/uploads/
+Backend/dist/
+
+####################################
+# Nodemon / Runtime
+####################################
+nodemon-debug.log
+
+####################################
+# Python / ML (MyModels)
+####################################
+__pycache__/
+*.py[cod]
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+MyModels/venv/
+MyModels/.venv/
+MyModels/env/
+
+####################################
+# Python build / cache
+####################################
+build/
+dist/
+.eggs/
+*.egg-info/
+
+####################################
+# Data files (important!)
+####################################
+MyModels/data/raw/*
+MyModels/data/processed/*
+!MyModels/data/processed/.gitkeep
+
+####################################
+# ML outputs / reports
+####################################
+MyModels/outputs/
+MyModels/models/**/model.pkl
+MyModels/models/**/scaler.pkl
+MyModels/models/**/label_encoder.pkl
+
+####################################
+# Frontend (React + Vite)
+####################################
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.env
+Frontend/.env.*
+
+####################################
+# Temporary files
+####################################
+tmp/
+temp/
+uploads/
+
+####################################
+# API Keys / Credentials
+####################################
+*.key
+*.pem
+*.crt
+
+####################################
+# Jupyter / Experiments
+####################################
+.ipynb_checkpoints/

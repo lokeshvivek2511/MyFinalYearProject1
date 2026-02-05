@@ -1,0 +1,38 @@
+{
+  "name": "farmer-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for Farmer Assistance Platform (MERN + Python APIs)",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "mern",
+    "node",
+    "express",
+    "mongodb",
+    "ocr",
+    "gemini",
+    "agriculture"
+  ],
+  "author": "Final Year Project",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "form-data": "^4.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "tesseract.js": "^5.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
