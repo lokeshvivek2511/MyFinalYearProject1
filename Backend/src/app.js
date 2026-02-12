@@ -14,6 +14,7 @@ import cropRoutes from "./routes/crop.routes.js";
 import schemeRoutes from "./routes/scheme.routes.js";
 import ocrRoutes from "./routes/ocr.routes.js";
 import translateRoutes from "./routes/translate.routes.js";
+import weatherRoutes from "./routes/weather.routes.js";
 
 const app = express();
 
@@ -32,6 +33,7 @@ app.use("/api/crop", cropRoutes);
 app.use("/api/schemes", schemeRoutes);
 app.use("/api/ocr", ocrRoutes);
 app.use("/api/translate", translateRoutes);
+app.use("/api/weather", weatherRoutes);
 
 // ------------------ ERROR HANDLER ------------------
 app.use(errorHandler);
