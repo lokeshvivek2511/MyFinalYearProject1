@@ -7,7 +7,8 @@ import SelectInput from '../../components/common/SelectInput';
 import Button from '../../components/common/Button';
 import { cropAPI } from '../../api/crop';
 import { useLocationData } from '../../hooks/useLocationData';
-import { Wheat, Loader } from 'lucide-react';
+import { Wheat, Loader, X } from 'lucide-react';
+import cropsData from '../../assets/CropsDetails.json';
 
 const CropRecommendation = () => {
   const { user } = useAuth();
@@ -28,6 +29,7 @@ const CropRecommendation = () => {
   const [results, setResults] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [selectedCrop, setSelectedCrop] = useState(null);
 
   useEffect(() => {
     if (district) {
@@ -93,6 +95,15 @@ const CropRecommendation = () => {
 
   const userState = user?.region?.state;
   const userDistricts = userState ? getDistricts(userState) : [];
+
+  const getCropDetails = (cropName) => {
+    return cropsData.find(crop => crop.crop_name.toLowerCase() === cropName.toLowerCase());
+  };
+
+  const handleCropClick = (cropName) => {
+    const details = getCropDetails(cropName);
+    setSelectedCrop(details || { crop_name: cropName, error: 'Details not found' });
+  };
 
   return (
     <PageWrapper>
@@ -219,7 +230,8 @@ const CropRecommendation = () => {
               {results.top_3_crops?.map((crop, index) => (
                 <div
                   key={index}
-                  className="flex items-center justify-between p-4 bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-lg hover:shadow-md transition-shadow"
+                  onClick={() => handleCropClick(crop.crop)}
+                  className="flex items-center justify-between p-4 bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-lg hover:shadow-md hover:cursor-pointer transition-all hover:border-green-400 transform hover:-translate-y-0.5"
                 >
                   <div className="flex items-center space-x-4 flex-1">
                     <div className="flex items-center justify-center w-12 h-12 bg-green-600 text-white rounded-full font-bold text-lg">
@@ -237,6 +249,166 @@ const CropRecommendation = () => {
               ))}
             </div>
           </Card>
+        )}
+
+        {selectedCrop && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+            <Card className="max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+              <div className="sticky top-0 bg-white border-b p-6 flex items-center justify-between">
+                <h2 className="text-2xl font-bold text-gray-800 capitalize flex-1">{selectedCrop.crop_name}</h2>
+                <button
+                  onClick={() => setSelectedCrop(null)}
+                  className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+                >
+                  <X className="w-6 h-6" />
+                </button>
+              </div>
+
+              <div className="p-6 space-y-6">
+                {selectedCrop.error ? (
+                  <div className="bg-yellow-50 border border-yellow-200 p-4 rounded-lg text-yellow-800">
+                    <p>Detailed information not available for this crop at the moment.</p>
+                  </div>
+                ) : (
+                  <>
+                    <div>
+                      <h3 className="font-semibold text-lg mb-3">Basic Information</h3>
+                      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                        <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                          <p className="text-sm text-blue-600 font-medium">Scientific Name</p>
+                          <p className="text-gray-800 font-semibold">{selectedCrop.scientific_name}</p>
+                        </div>
+                        <div className="bg-green-50 p-4 rounded-lg border border-green-200">
+                          <p className="text-sm text-green-600 font-medium">Crop Type</p>
+                          <p className="text-gray-800 font-semibold">{selectedCrop.crop_type}</p>
+                        </div>
+                        <div className="bg-purple-50 p-4 rounded-lg border border-purple-200">
+                          <p className="text-sm text-purple-600 font-medium">Life Cycle</p>
+                          <p className="text-gray-800 font-semibold">{selectedCrop.life_cycle_duration_days} days</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <h3 className="font-semibold text-lg mb-3">Seasons</h3>
+                      <div className="flex flex-wrap gap-2">
+                        {selectedCrop.season?.map((s, idx) => (
+                          <span key={idx} className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">
+                            {s}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+
+                    {selectedCrop.soil_requirements && (
+                      <div className="bg-amber-50 border border-amber-200 p-4 rounded-lg">
+                        <h3 className="font-semibold text-lg mb-3 text-amber-900">Soil Requirements</h3>
+                        <ul className="space-y-2 text-gray-700">
+                          <li><strong>Soil Type:</strong> {selectedCrop.soil_requirements.soil_type}</li>
+                          <li><strong>pH Range:</strong> {selectedCrop.soil_requirements.ph_range}</li>
+                          <li><strong>Drainage:</strong> {selectedCrop.soil_requirements.drainage}</li>
+                        </ul>
+                      </div>
+                    )}
+
+                    {selectedCrop.climate_requirements && (
+                      <div className="bg-sky-50 border border-sky-200 p-4 rounded-lg">
+                        <h3 className="font-semibold text-lg mb-3 text-sky-900">Climate Requirements</h3>
+                        <ul className="space-y-2 text-gray-700">
+                          <li><strong>Temperature Range:</strong> {selectedCrop.climate_requirements.temperature_range_celsius}°C</li>
+                          <li><strong>Rainfall Requirement:</strong> {selectedCrop.climate_requirements.rainfall_requirement_mm} mm</li>
+                          <li><strong>Sunlight:</strong> {selectedCrop.climate_requirements.sunlight}</li>
+                        </ul>
+                      </div>
+                    )}
+
+                    {selectedCrop.land_preparation && (
+                      <div>
+                        <h3 className="font-semibold text-lg mb-3">Land Preparation</h3>
+                        <p className="bg-gray-50 p-4 rounded-lg text-gray-700">{selectedCrop.land_preparation}</p>
+                      </div>
+                    )}
+
+                    {selectedCrop.spacing && (
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div className="bg-indigo-50 border border-indigo-200 p-4 rounded-lg">
+                          <p className="text-sm text-indigo-600 font-medium mb-2">Spacing</p>
+                          <p className="text-gray-800 font-semibold">{selectedCrop.spacing}</p>
+                        </div>
+                        <div className="bg-rose-50 border border-rose-200 p-4 rounded-lg">
+                          <p className="text-sm text-rose-600 font-medium mb-2">Sowing Method</p>
+                          <p className="text-gray-800 font-semibold">{selectedCrop.sowing_method}</p>
+                        </div>
+                      </div>
+                    )}
+
+                    {selectedCrop.irrigation_schedule && (
+                      <div>
+                        <h3 className="font-semibold text-lg mb-3">Irrigation Schedule</h3>
+                        <p className="bg-cyan-50 p-4 rounded-lg text-gray-700 border border-cyan-200">{selectedCrop.irrigation_schedule}</p>
+                      </div>
+                    )}
+
+                    {selectedCrop.fertilizer_management && (
+                      <div>
+                        <h3 className="font-semibold text-lg mb-3">Fertilizer Management</h3>
+                        <p className="bg-lime-50 p-4 rounded-lg text-gray-700 border border-lime-200">{selectedCrop.fertilizer_management}</p>
+                      </div>
+                    )}
+
+                    {selectedCrop.weed_management && (
+                      <div>
+                        <h3 className="font-semibold text-lg mb-3">Weed Management</h3>
+                        <p className="bg-orange-50 p-4 rounded-lg text-gray-700 border border-orange-200">{selectedCrop.weed_management}</p>
+                      </div>
+                    )}
+
+                    {selectedCrop.pest_and_disease_management && (
+                      <div>
+                        <h3 className="font-semibold text-lg mb-3">Pest & Disease Management</h3>
+                        <p className="bg-red-50 p-4 rounded-lg text-gray-700 border border-red-200">{selectedCrop.pest_and_disease_management}</p>
+                      </div>
+                    )}
+
+                    {selectedCrop.growth_stages && (
+                      <div>
+                        <h3 className="font-semibold text-lg mb-3">Growth Stages</h3>
+                        <div className="space-y-3">
+                          {selectedCrop.growth_stages.map((stage, idx) => (
+                            <div key={idx} className="bg-gradient-to-r from-green-50 to-emerald-50 p-4 rounded-lg border border-green-200">
+                              <div className="flex items-center justify-between mb-2">
+                                <h4 className="font-semibold text-gray-800 capitalize">{stage.stage_name}</h4>
+                                <span className="text-sm bg-green-600 text-white px-2 py-1 rounded">{stage.duration_days} days</span>
+                              </div>
+                              <p className="text-gray-700 text-sm">{stage.description}</p>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {selectedCrop.harvesting && (
+                      <div className="bg-yellow-50 border border-yellow-200 p-4 rounded-lg">
+                        <h3 className="font-semibold text-lg mb-3 text-yellow-900">Harvesting</h3>
+                        <ul className="space-y-2 text-gray-700">
+                          <li><strong>Harvest Time:</strong> {selectedCrop.harvesting.harvest_time}</li>
+                          <li><strong>Method:</strong> {selectedCrop.harvesting.harvesting_method}</li>
+                          <li><strong>Average Yield:</strong> {selectedCrop.harvesting.average_yield_per_hectare}</li>
+                        </ul>
+                      </div>
+                    )}
+
+                    {selectedCrop.post_harvest_handling && (
+                      <div>
+                        <h3 className="font-semibold text-lg mb-3">Post-Harvest Handling</h3>
+                        <p className="bg-gray-50 p-4 rounded-lg text-gray-700 border border-gray-200">{selectedCrop.post_harvest_handling}</p>
+                      </div>
+                    )}
+                  </>
+                )}
+              </div>
+            </Card>
+          </div>
         )}
       </div>
     </PageWrapper>

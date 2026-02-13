@@ -212,9 +212,9 @@ const GovernmentSchemes = () => {
               ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {currentSchemes.map((scheme) => (
-                    <Card
+                    <div
                       key={scheme.scheme_id}
-                      className="cursor-pointer hover:shadow-lg hover:border-green-300 transition-all transform hover:-translate-y-1 border border-gray-200"
+                      className="bg-white rounded-lg shadow-sm p-6 cursor-pointer hover:shadow-lg hover:border-green-300 transition-all transform hover:-translate-y-1 border border-gray-200"
                       onClick={() => setSelectedScheme(scheme)}
                     >
                       <h3 className="font-bold text-lg mb-2 text-gray-800 line-clamp-2">
@@ -224,15 +224,15 @@ const GovernmentSchemes = () => {
                         {scheme.benefits}
                       </p>
                       <div className="flex items-center justify-between">
-                        <button className="text-green-600 text-sm font-semibold hover:underline flex items-center space-x-1">
+                        <div className="text-green-600 text-sm font-semibold hover:underline flex items-center space-x-1">
                           <span>View Details</span>
                           <ExternalLink className="w-3 h-3" />
-                        </button>
+                        </div>
                         <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs font-medium">
                           Eligible
                         </span>
                       </div>
-                    </Card>
+                    </div>
                   ))}
                 </div>
               )}

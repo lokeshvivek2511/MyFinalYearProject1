@@ -1,0 +1,2067 @@
+[
+  {
+    "crop_name": "banana",
+    "scientific_name": "Musa spp.",
+    "crop_type": "Fruit",
+    "season": ["Kharif", "Rabi"],
+    "soil_requirements": {
+      "soil_type": "Well-drained deep loamy soil",
+      "ph_range": "6.0 - 7.5",
+      "drainage": "Good drainage required"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "15 - 35",
+      "rainfall_requirement_mm": "1000 - 2000",
+      "sunlight": "Full sunlight"
+    },
+    "land_preparation": "Plough deeply and level the field. Dig pits of 50x50x50 cm and fill with top soil mixed with 10 kg of FYM.",
+    "seed_selection": "Use disease-free sword suckers weighing about 500 g or tissue culture plantlets.",
+    "sowing_method": "Plant suckers in pits at the center, press soil firmly around.",
+    "spacing": "2m x 2m (for tall varieties) or 1.8m x 1.8m (for dwarf varieties)",
+    "irrigation_schedule": "Irrigate immediately after planting. Then once in 4-7 days depending on soil and season. Provide drip irrigation for efficiency.",
+    "fertilizer_management": "Apply 200 g N, 50 g P, 300 g K per plant in three split doses at 3, 5, and 7 months after planting. Include FYM at planting.",
+    "weed_management": "Hand weeding or mulching with dry leaves/plastic to suppress weeds.",
+    "pest_and_disease_management": "Control rhizome weevil by dipping suckers in chlorpyriphos. Manage Sigatoka leaf spot by spraying carbendazim or propiconazole at first sign.",
+    "growth_stages": [
+      {
+        "stage_name": "Vegetative phase",
+        "duration_days": "240",
+        "description": "Rapid leaf and stem development; requires adequate water and nutrients."
+      },
+      {
+        "stage_name": "Flowering phase",
+        "duration_days": "30",
+        "description": "Inflorescence emergence; continue irrigation and side-dress fertilizer."
+      },
+      {
+        "stage_name": "Fruiting phase",
+        "duration_days": "60",
+        "description": "Bunch development and maturity; protect from wind and pests."
+      }
+    ],
+    "life_cycle_duration_days": "330",
+    "harvesting": {
+      "harvest_time": "When fruits are fully developed but still green; 11-12 months after planting.",
+      "harvesting_method": "Cut the bunch with a curved knife, leaving a portion of the stalk for handling.",
+      "average_yield_per_hectare": "30 - 50 tonnes"
+    },
+    "post_harvest_handling": "De-hand bunches, wash in clean water, treat with fungicide, and pack in ventilated boxes. Ripen with ethylene if required."
+  },
+  {
+    "crop_name": "barley",
+    "scientific_name": "Hordeum vulgare",
+    "crop_type": "Cereal",
+    "season": ["Rabi"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy or sandy loam",
+      "ph_range": "6.0 - 7.5",
+      "drainage": "Moderate drainage; avoid waterlogging"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "12 - 25",
+      "rainfall_requirement_mm": "400 - 600",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "One deep ploughing followed by 2-3 harrowings to achieve fine tilth. Level the field.",
+    "seed_selection": "Certified seeds of high-yielding varieties (e.g., BH 902, RD 2035).",
+    "sowing_method": "Broadcasting or drilling in rows. Seed rate 100 kg/ha.",
+    "spacing": "Row spacing 22-25 cm, plant spacing 5-7 cm.",
+    "irrigation_schedule": "Pre-sowing irrigation, then first irrigation at crown root initiation (20-25 DAS), second at tillering (40-45 DAS), third at flowering (70-75 DAS), and fourth at grain filling (95-100 DAS).",
+    "fertilizer_management": "Apply 60 kg N, 30 kg P, 20 kg K per hectare. Full P and K at sowing, N in two splits: half at sowing and half at first irrigation.",
+    "weed_management": "Pre-emergence application of Pendimethalin or hand weeding at 30-35 DAS.",
+    "pest_and_disease_management": "Control aphids with imidacloprid; manage leaf rust with propiconazole.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination and seedling",
+        "duration_days": "15",
+        "description": "Seed germination and emergence."
+      },
+      {
+        "stage_name": "Tillering",
+        "duration_days": "30",
+        "description": "Formation of side shoots; apply nitrogen."
+      },
+      {
+        "stage_name": "Stem elongation and booting",
+        "duration_days": "30",
+        "description": "Stem growth and ear formation."
+      },
+      {
+        "stage_name": "Flowering and grain filling",
+        "duration_days": "35",
+        "description": "Anthesis and grain development."
+      },
+      {
+        "stage_name": "Ripening",
+        "duration_days": "20",
+        "description": "Grain maturity and drying."
+      }
+    ],
+    "life_cycle_duration_days": "130",
+    "harvesting": {
+      "harvest_time": "When straw turns yellow and grains are hard (mid-March to April).",
+      "harvesting_method": "Manual harvesting with sickle or combine harvester.",
+      "average_yield_per_hectare": "2.5 - 3.5 tonnes"
+    },
+    "post_harvest_handling": "Thresh, clean, and dry grains to 12% moisture before storage."
+  },
+  {
+    "crop_name": "bittergourd",
+    "scientific_name": "Momordica charantia",
+    "crop_type": "Vegetable",
+    "season": ["Kharif", "Summer"],
+    "soil_requirements": {
+      "soil_type": "Well-drained sandy loam rich in organic matter",
+      "ph_range": "6.0 - 7.0",
+      "drainage": "Good drainage essential"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "25 - 35",
+      "rainfall_requirement_mm": "600 - 1000",
+      "sunlight": "Full sunlight"
+    },
+    "land_preparation": "Plough field to fine tilth, add 20-25 t/ha FYM, form beds and channels.",
+    "seed_selection": "Treat seeds with Trichoderma viride @ 4 g/kg seed; use high-yielding hybrids like Priya or Green Long.",
+    "sowing_method": "Direct sowing on raised beds, 2-3 seeds per hill, later thin to one plant.",
+    "spacing": "Row to row 1.5-2 m, plant to plant 0.6-0.9 m (depending on trellis system).",
+    "irrigation_schedule": "Light irrigation every 3-4 days; critical stages: flowering and fruit development. Drip irrigation recommended.",
+    "fertilizer_management": "Basal: 25 t FYM + 50 kg N, 30 kg P, 30 kg K/ha. Top dress with 50 kg N after 30 and 60 DAS.",
+    "weed_management": "Mulching with plastic or straw; hand weeding at 20 and 40 DAS.",
+    "pest_and_disease_management": "Fruit fly: install pheromone traps; use neem spray. Powdery mildew: spray wettable sulfur.",
+    "growth_stages": [
+      {
+        "stage_name": "Seedling emergence",
+        "duration_days": "7",
+        "description": "Seeds germinate and cotyledons appear."
+      },
+      {
+        "stage_name": "Vine growth",
+        "duration_days": "30",
+        "description": "Rapid vine elongation and branching; provide trellis."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "15",
+        "description": "Male and female flowers appear."
+      },
+      {
+        "stage_name": "Fruiting",
+        "duration_days": "40",
+        "description": "Fruit set and development; regular picking."
+      }
+    ],
+    "life_cycle_duration_days": "120",
+    "harvesting": {
+      "harvest_time": "55-60 days after sowing; harvest young tender fruits every 3-4 days.",
+      "harvesting_method": "Hand picking with scissors, avoid damage.",
+      "average_yield_per_hectare": "10 - 15 tonnes"
+    },
+    "post_harvest_handling": "Sort, grade, pack in ventilated crates; store at 12-15°C."
+  },
+  {
+    "crop_name": "blackgram",
+    "scientific_name": "Vigna mungo",
+    "crop_type": "Pulse",
+    "season": ["Kharif", "Rabi", "Summer"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loam or clay loam",
+      "ph_range": "6.5 - 7.5",
+      "drainage": "Avoid waterlogging"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "25 - 35",
+      "rainfall_requirement_mm": "600 - 900",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough and harrow to get fine tilth; level field.",
+    "seed_selection": "Certified seeds of varieties like T9, Pant U-19, or Shekhar-2; treat with Rhizobium culture.",
+    "sowing_method": "Broadcasting or line sowing; seed rate 20-25 kg/ha for pure crop.",
+    "spacing": "Row spacing 30 cm, plant spacing 10 cm.",
+    "irrigation_schedule": "Irrigate immediately after sowing; then at branching, flowering and pod development if no rain.",
+    "fertilizer_management": "20 kg N, 40 kg P, 20 kg K per hectare as basal. No need for top dressing if Rhizobium effective.",
+    "weed_management": "Pre-emergence Pendimethalin + one hand weeding at 30 DAS.",
+    "pest_and_disease_management": "Control pod borer with quinalphos; manage yellow mosaic virus by resistant varieties and vector control.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "7",
+        "description": "Seed emergence."
+      },
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "30",
+        "description": "Leaf and stem development."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "15",
+        "description": "Bloom initiation."
+      },
+      {
+        "stage_name": "Pod formation and maturity",
+        "duration_days": "30",
+        "description": "Pods fill and dry."
+      }
+    ],
+    "life_cycle_duration_days": "85",
+    "harvesting": {
+      "harvest_time": "When pods turn black and dry (80-90 days after sowing).",
+      "harvesting_method": "Pull out plants or cut at base, sun dry, thresh.",
+      "average_yield_per_hectare": "0.8 - 1.2 tonnes"
+    },
+    "post_harvest_handling": "Clean, dry grains to 9% moisture; store in gunny bags with proper fumigation."
+  },
+  {
+    "crop_name": "blackpepper",
+    "scientific_name": "Piper nigrum",
+    "crop_type": "Spice",
+    "season": ["Perennial"],
+    "soil_requirements": {
+      "soil_type": "Well-drained laterite or loamy soil rich in organic matter",
+      "ph_range": "5.5 - 6.5",
+      "drainage": "Excellent drainage required"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "20 - 30",
+      "rainfall_requirement_mm": "1500 - 2500",
+      "sunlight": "Partial shade (grown as intercrop)"
+    },
+    "land_preparation": "Plant cuttings in pits near standards (support trees). Pits of 0.5 m³ filled with top soil and FYM.",
+    "seed_selection": "Select rooted cuttings from high-yielding vines (e.g., Panniyur-1, Karimunda).",
+    "sowing_method": "Plant 2-3 cuttings per pit at the base of support tree, stake them.",
+    "spacing": "2-3 m between plants, depends on support tree arrangement.",
+    "irrigation_schedule": "Irrigate during dry periods (Nov-May) every 7-10 days; avoid water stress.",
+    "fertilizer_management": "Apply FYM 10 kg, N 100 g, P 40 g, K 150 g per vine per year in two splits (May-June and Sept-Oct).",
+    "weed_management": "Mulching and hand weeding around base; control weeds on standards.",
+    "pest_and_disease_management": "Pollu beetle: spray quinalphos; foot rot: drench with Bordeaux mixture.",
+    "growth_stages": [
+      {
+        "stage_name": "Establishment",
+        "duration_days": "365",
+        "description": "First year: vine climbs and establishes."
+      },
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "730",
+        "description": "Second and third years: rapid vine elongation."
+      },
+      {
+        "stage_name": "Flowering and fruiting",
+        "duration_days": "365",
+        "description": "From 4th year onward: spikes appear, berries develop."
+      }
+    ],
+    "life_cycle_duration_days": "1460",
+    "harvesting": {
+      "harvest_time": "When berries turn from green to yellow or red (Jan-Feb in plains, later in hills).",
+      "harvesting_method": "Hand pick spikes, separate berries.",
+      "average_yield_per_hectare": "2 - 3 tonnes (dried)"
+    },
+    "post_harvest_handling": "Berries blanched in hot water, sun dried till they turn black, then stored."
+  },
+  {
+    "crop_name": "bottlegourd",
+    "scientific_name": "Lagenaria siceraria",
+    "crop_type": "Vegetable",
+    "season": ["Kharif", "Summer"],
+    "soil_requirements": {
+      "soil_type": "Sandy loam to loamy soil with organic matter",
+      "ph_range": "6.0 - 7.5",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "25 - 35",
+      "rainfall_requirement_mm": "500 - 800",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Deep plough, add 20 t/ha FYM, form ridges and furrows or raised beds.",
+    "seed_selection": "Hybrid seeds (e.g., Pusa Hybrid-3, Pusa Samridhi) treated with Trichoderma.",
+    "sowing_method": "Direct sowing on ridges, 2 seeds per hill, later thin.",
+    "spacing": "Row 2-3 m, hill 1 m.",
+    "irrigation_schedule": "Weekly irrigation; critical at flowering and fruit set; mulching helps.",
+    "fertilizer_management": "Basal: 50 kg N, 30 kg P, 30 kg K + FYM. Top dress with 50 kg N at 30 and 60 DAS.",
+    "weed_management": "Mulch with plastic; hand weed at 30 DAS.",
+    "pest_and_disease_management": "Fruit fly: pheromone traps; powdery mildew: sulfur spray.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "7",
+        "description": "Seeds sprout."
+      },
+      {
+        "stage_name": "Vine growth",
+        "duration_days": "35",
+        "description": "Rapid elongation and branching."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "15",
+        "description": "Male and female flowers appear."
+      },
+      {
+        "stage_name": "Fruiting",
+        "duration_days": "40",
+        "description": "Fruit set and development."
+      }
+    ],
+    "life_cycle_duration_days": "110",
+    "harvesting": {
+      "harvest_time": "60-65 days after sowing; pick immature tender fruits.",
+      "harvesting_method": "Cut with stalk using sharp knife.",
+      "average_yield_per_hectare": "20 - 30 tonnes"
+    },
+    "post_harvest_handling": "Grading, packing in mesh bags; store in cool place."
+  },
+  {
+    "crop_name": "brinjal",
+    "scientific_name": "Solanum melongena",
+    "crop_type": "Vegetable",
+    "season": ["Kharif", "Rabi"],
+    "soil_requirements": {
+      "soil_type": "Well-drained sandy loam to clay loam",
+      "ph_range": "5.5 - 7.0",
+      "drainage": "Moderate drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "20 - 30",
+      "rainfall_requirement_mm": "600 - 800",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, add 25 t/ha FYM, prepare beds or ridges.",
+    "seed_selection": "Hybrid seeds like Pusa Purple Long, Arka Keshav; treat with Trichoderma.",
+    "sowing_method": "Nursery raising; transplant 30-35 days old seedlings on ridges.",
+    "spacing": "Row 60-75 cm, plant 45-60 cm.",
+    "irrigation_schedule": "Irrigate immediately after transplant, then weekly. Critical: flowering and fruiting.",
+    "fertilizer_management": "Basal: 50 kg N, 50 kg P, 50 kg K + FYM. Top dress with 50 kg N at 30 and 60 DAT.",
+    "weed_management": "Mulching with plastic; hand weeding at 30 and 50 DAT.",
+    "pest_and_disease_management": "Shoot and fruit borer: spray emamectin benzoate; little leaf: remove infected plants.",
+    "growth_stages": [
+      {
+        "stage_name": "Seedling",
+        "duration_days": "30",
+        "description": "Nursery stage."
+      },
+      {
+        "stage_name": "Vegetative",
+        "duration_days": "40",
+        "description": "Growth after transplant."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "20",
+        "description": "Flower initiation."
+      },
+      {
+        "stage_name": "Fruiting",
+        "duration_days": "60",
+        "description": "Fruit set and harvest."
+      }
+    ],
+    "life_cycle_duration_days": "150",
+    "harvesting": {
+      "harvest_time": "When fruits attain marketable size (50-60 DAT); regular picking.",
+      "harvesting_method": "Hand picking with stalk.",
+      "average_yield_per_hectare": "25 - 35 tonnes"
+    },
+    "post_harvest_handling": "Sort, pack in crates, store at 12-15°C."
+  },
+  {
+    "crop_name": "cabbage",
+    "scientific_name": "Brassica oleracea var. capitata",
+    "crop_type": "Vegetable",
+    "season": ["Rabi", "Winter"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy soil rich in organic matter",
+      "ph_range": "6.0 - 7.0",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "15 - 25",
+      "rainfall_requirement_mm": "500 - 700",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, add 30 t/ha FYM, form beds.",
+    "seed_selection": "Hybrid seeds (e.g., Golden Acre, Pusa Drumhead).",
+    "sowing_method": "Nursery raising; transplant 4-5 week old seedlings.",
+    "spacing": "Row 45-60 cm, plant 45-50 cm.",
+    "irrigation_schedule": "Light irrigation after transplant, then weekly. Avoid water stress during head formation.",
+    "fertilizer_management": "Basal: 100 kg N, 75 kg P, 75 kg K + FYM. Top dress with 50 kg N at 30 and 50 DAT.",
+    "weed_management": "Mulching; hand weeding at 20 and 40 DAT.",
+    "pest_and_disease_management": "Diamondback moth: spinosad; black rot: avoid overhead irrigation and use certified seeds.",
+    "growth_stages": [
+      {
+        "stage_name": "Seedling",
+        "duration_days": "30",
+        "description": "Nursery."
+      },
+      {
+        "stage_name": "Vegetative",
+        "duration_days": "30",
+        "description": "Leaf growth."
+      },
+      {
+        "stage_name": "Head formation",
+        "duration_days": "40",
+        "description": "Heads develop and firm up."
+      },
+      {
+        "stage_name": "Maturity",
+        "duration_days": "20",
+        "description": "Heads ready for harvest."
+      }
+    ],
+    "life_cycle_duration_days": "120",
+    "harvesting": {
+      "harvest_time": "When heads are firm and compact (75-100 DAT).",
+      "harvesting_method": "Cut heads with a sharp knife, leave few wrapper leaves.",
+      "average_yield_per_hectare": "25 - 40 tonnes"
+    },
+    "post_harvest_handling": "Trim, pack in crates, store at 0-1°C with 95% RH."
+  },
+  {
+    "crop_name": "cardamom",
+    "scientific_name": "Elettaria cardamomum",
+    "crop_type": "Spice",
+    "season": ["Perennial"],
+    "soil_requirements": {
+      "soil_type": "Forest loam rich in organic matter, well-drained",
+      "ph_range": "5.0 - 6.5",
+      "drainage": "Excellent drainage; slopes preferred"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "10 - 30",
+      "rainfall_requirement_mm": "1500 - 3000",
+      "sunlight": "Partial shade (grown under shade trees)"
+    },
+    "land_preparation": "Clear undergrowth, dig pits of 60x60x45 cm, fill with top soil and FYM.",
+    "seed_selection": "Rhizome bits from high-yielding clones (e.g., Appangala-1, Mudigere-1) or seedlings.",
+    "sowing_method": "Plant rhizomes in pits during May-June; cover with soil.",
+    "spacing": "2m x 2m (for pure crop) or adjusted in shade gardens.",
+    "irrigation_schedule": "Irrigate during dry months (Dec-May) once a week; use sprinklers.",
+    "fertilizer_management": "Apply 75 kg N, 75 kg P, 150 kg K per ha per year in two splits (June and Sept) with FYM 10 t/ha.",
+    "weed_management": "Hand weeding 3-4 times a year; mulching with leaves.",
+    "pest_and_disease_management": "Rhizome rot: drench with copper oxychloride; shoot borer: spray quinalphos.",
+    "growth_stages": [
+      {
+        "stage_name": "Establishment",
+        "duration_days": "365",
+        "description": "First year: tillers emerge, plant establishes."
+      },
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "730",
+        "description": "Clump increases, tillers multiply."
+      },
+      {
+        "stage_name": "Flowering and fruiting",
+        "duration_days": "365",
+        "description": "From 3rd year: panicles appear, capsules develop."
+      }
+    ],
+    "life_cycle_duration_days": "1460",
+    "harvesting": {
+      "harvest_time": "When capsules turn green (Aug-Nov), harvested every 15-20 days.",
+      "harvesting_method": "Hand pick ripe panicles, separate capsules.",
+      "average_yield_per_hectare": "0.3 - 0.5 tonnes (dry)"
+    },
+    "post_harvest_handling": "Capsules washed, dried in curing house (50°C) till moisture 10-12%, then polished and graded."
+  },
+  {
+    "crop_name": "cauliflower",
+    "scientific_name": "Brassica oleracea var. botrytis",
+    "crop_type": "Vegetable",
+    "season": ["Rabi", "Winter"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy soil rich in organic matter",
+      "ph_range": "6.0 - 7.0",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "15 - 25",
+      "rainfall_requirement_mm": "500 - 700",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, add 25 t/ha FYM, form beds.",
+    "seed_selection": "Hybrid seeds (e.g., Pusa Snowball, Pusa Deepali).",
+    "sowing_method": "Nursery raising; transplant 4-5 week old seedlings.",
+    "spacing": "Row 60 cm, plant 45 cm.",
+    "irrigation_schedule": "Light irrigation after transplant, then weekly. Critical: curd initiation and development.",
+    "fertilizer_management": "Basal: 100 kg N, 80 kg P, 80 kg K + FYM. Top dress with 50 kg N at 30 and 50 DAT.",
+    "weed_management": "Mulching; hand weeding at 20 and 40 DAT.",
+    "pest_and_disease_management": "Diamondback moth: spinosad; downy mildew: mancozeb spray.",
+    "growth_stages": [
+      {
+        "stage_name": "Seedling",
+        "duration_days": "30",
+        "description": "Nursery."
+      },
+      {
+        "stage_name": "Vegetative",
+        "duration_days": "35",
+        "description": "Leaf growth."
+      },
+      {
+        "stage_name": "Curd initiation",
+        "duration_days": "20",
+        "description": "Curd starts forming."
+      },
+      {
+        "stage_name": "Curd development",
+        "duration_days": "25",
+        "description": "Curd enlarges and firms."
+      }
+    ],
+    "life_cycle_duration_days": "110",
+    "harvesting": {
+      "harvest_time": "When curds are compact, white, and marketable (80-110 DAT).",
+      "harvesting_method": "Cut curds with surrounding leaves to protect.",
+      "average_yield_per_hectare": "20 - 30 tonnes"
+    },
+    "post_harvest_handling": "Cool immediately, pack in crates, store at 0°C with 95% RH."
+  },
+  {
+    "crop_name": "coriander",
+    "scientific_name": "Coriandrum sativum",
+    "crop_type": "Spice/Herb",
+    "season": ["Rabi", "Kharif"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy soil",
+      "ph_range": "6.0 - 7.5",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "15 - 25",
+      "rainfall_requirement_mm": "500 - 700",
+      "sunlight": "Full sun to partial shade"
+    },
+    "land_preparation": "Plough to fine tilth, add 10 t/ha FYM, level field.",
+    "seed_selection": "Certified seeds of varieties like Sadhana, RCr-41; split seeds before sowing.",
+    "sowing_method": "Broadcasting or line sowing; seed rate 20-25 kg/ha.",
+    "spacing": "Row 30 cm, plant 10 cm (if line sown).",
+    "irrigation_schedule": "Light irrigation after sowing, then every 7-10 days; critical at flowering and seed filling.",
+    "fertilizer_management": "Basal: 20 kg N, 30 kg P, 20 kg K + FYM. Top dress with 20 kg N at 30 DAS.",
+    "weed_management": "Hand weeding at 20 and 40 DAS.",
+    "pest_and_disease_management": "Aphids: dimethoate; powdery mildew: sulfur spray.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "10",
+        "description": "Seeds emerge."
+      },
+      {
+        "stage_name": "Vegetative",
+        "duration_days": "40",
+        "description": "Leaf growth; if grown for leaves, harvest at this stage."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "30",
+        "description": "Umbel initiation and flowering."
+      },
+      {
+        "stage_name": "Seed filling and maturity",
+        "duration_days": "30",
+        "description": "Seeds develop and dry."
+      }
+    ],
+    "life_cycle_duration_days": "110",
+    "harvesting": {
+      "harvest_time": "For seeds: when 50% seeds turn yellow (90-110 DAS); for leaves: 30-45 DAS.",
+      "harvesting_method": "Cut plants at base, dry, thresh for seeds.",
+      "average_yield_per_hectare": "0.5 - 1 tonne (seed) or 10-12 tonnes (leaf)"
+    },
+    "post_harvest_handling": "Dry seeds to 9% moisture; store in cool dry place."
+  },
+  {
+    "crop_name": "cotton",
+    "scientific_name": "Gossypium spp.",
+    "crop_type": "Fiber",
+    "season": ["Kharif"],
+    "soil_requirements": {
+      "soil_type": "Deep well-drained black cotton or loamy soil",
+      "ph_range": "6.0 - 8.0",
+      "drainage": "Moderate drainage; avoid waterlogging"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "25 - 35",
+      "rainfall_requirement_mm": "500 - 800",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Deep ploughing, harrowing, leveling; apply 10 t/ha FYM.",
+    "seed_selection": "Certified hybrid seeds (e.g., Bt cotton hybrids) treated with fungicide.",
+    "sowing_method": "Line sowing on ridges or flat beds; seed rate 3-5 kg/ha.",
+    "spacing": "Row 90-120 cm, plant 60-90 cm.",
+    "irrigation_schedule": "Irrigate at critical stages: seedling, flowering, boll development; 4-5 irrigations depending on rainfall.",
+    "fertilizer_management": "Apply 120 kg N, 60 kg P, 60 kg K per ha. Basal: half N + full P,K. Top dress remaining N at 30 and 60 DAS.",
+    "weed_management": "Pre-emergence Pendimethalin + hand weeding at 40 DAS.",
+    "pest_and_disease_management": "Sucking pests: imidacloprid; bollworms: sprays as per ETL; use Bt cotton for resistance.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination and seedling",
+        "duration_days": "15",
+        "description": "Seed emergence."
+      },
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "45",
+        "description": "Leaf and branch development."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "30",
+        "description": "Bloom initiation."
+      },
+      {
+        "stage_name": "Boll development and maturity",
+        "duration_days": "70",
+        "description": "Bolls form and open."
+      }
+    ],
+    "life_cycle_duration_days": "160",
+    "harvesting": {
+      "harvest_time": "When bolls burst (160-180 DAS); pick in multiple rounds.",
+      "harvesting_method": "Hand picking kapas (seed cotton) from open bolls.",
+      "average_yield_per_hectare": "2.5 - 3.5 tonnes (seed cotton)"
+    },
+    "post_harvest_handling": "Dry kapas in sun, grade, and gin to separate lint and seed."
+  },
+  {
+    "crop_name": "cucumber",
+    "scientific_name": "Cucumis sativus",
+    "crop_type": "Vegetable",
+    "season": ["Kharif", "Summer"],
+    "soil_requirements": {
+      "soil_type": "Sandy loam rich in organic matter",
+      "ph_range": "6.0 - 7.0",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "25 - 35",
+      "rainfall_requirement_mm": "500 - 800",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, add 20 t/ha FYM, form raised beds.",
+    "seed_selection": "Hybrid seeds (e.g., Pusa Sanyog, Malini) treated with Trichoderma.",
+    "sowing_method": "Direct sowing on beds, 2 seeds per hill, later thin.",
+    "spacing": "Row 1.5-2 m, hill 0.5-1 m.",
+    "irrigation_schedule": "Light irrigation every 3-4 days; critical at flowering and fruit set. Drip preferred.",
+    "fertilizer_management": "Basal: 50 kg N, 30 kg P, 30 kg K + FYM. Top dress with 50 kg N at 30 and 50 DAS.",
+    "weed_management": "Mulch with plastic; hand weeding at 30 DAS.",
+    "pest_and_disease_management": "Fruit fly: pheromone traps; downy mildew: mancozeb spray.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "7",
+        "description": "Seeds sprout."
+      },
+      {
+        "stage_name": "Vine growth",
+        "duration_days": "30",
+        "description": "Rapid vine elongation."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "15",
+        "description": "Flowers appear."
+      },
+      {
+        "stage_name": "Fruiting",
+        "duration_days": "35",
+        "description": "Fruit set and development."
+      }
+    ],
+    "life_cycle_duration_days": "90",
+    "harvesting": {
+      "harvest_time": "50-55 DAS; pick young tender fruits every 2-3 days.",
+      "harvesting_method": "Hand picking with stalk.",
+      "average_yield_per_hectare": "15 - 20 tonnes"
+    },
+    "post_harvest_handling": "Grading, packing in crates, store at 10-15°C."
+  },
+  {
+    "crop_name": "drumstick",
+    "scientific_name": "Moringa oleifera",
+    "crop_type": "Vegetable",
+    "season": ["Perennial", "Kharif"],
+    "soil_requirements": {
+      "soil_type": "Sandy loam to loamy well-drained",
+      "ph_range": "6.0 - 7.5",
+      "drainage": "Good drainage essential"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "25 - 40",
+      "rainfall_requirement_mm": "500 - 1500",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough and dig pits of 45x45x45 cm, fill with top soil + 10 kg FYM.",
+    "seed_selection": "Seeds from high-yielding types (PKM-1, PKM-2) or stem cuttings.",
+    "sowing_method": "Direct sowing of seeds in pits (3 seeds per pit) or planting cuttings.",
+    "spacing": "2.5m x 2.5m (for annual) or 5m x 5m (perennial).",
+    "irrigation_schedule": "Irrigate once a week initially, then as needed. Critical during flowering and pod development.",
+    "fertilizer_management": "Apply 25 kg FYM, 100 g N, 50 g P, 50 g K per plant per year in two splits (June and Oct).",
+    "weed_management": "Hand weeding around base; mulching.",
+    "pest_and_disease_management": "Leaf caterpillar: spray quinalphos; powdery mildew: sulfur.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "10",
+        "description": "Seeds sprout."
+      },
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "180",
+        "description": "Plant grows to maturity."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "30",
+        "description": "Flowers appear after 6-8 months."
+      },
+      {
+        "stage_name": "Pod development",
+        "duration_days": "60",
+        "description": "Pods form and mature."
+      }
+    ],
+    "life_cycle_duration_days": "270",
+    "harvesting": {
+      "harvest_time": "When pods are tender (50-60 cm long), 8-9 months after planting; continuous picking.",
+      "harvesting_method": "Hand picking or using long pole with hook.",
+      "average_yield_per_hectare": "20 - 25 tonnes (pods)"
+    },
+    "post_harvest_handling": "Sort, pack in ventilated bags; store in cool place."
+  },
+  {
+    "crop_name": "garlic",
+    "scientific_name": "Allium sativum",
+    "crop_type": "Vegetable/Spice",
+    "season": ["Rabi"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy soil rich in organic matter",
+      "ph_range": "6.0 - 7.0",
+      "drainage": "Good drainage required"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "15 - 25",
+      "rainfall_requirement_mm": "400 - 600",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, add 20 t/ha FYM, form raised beds.",
+    "seed_selection": "Healthy, disease-free cloves from varieties like Agrifound White, Yamuna Safed.",
+    "sowing_method": "Plant cloves 5-7 cm deep, pointed end up; seed rate 400-500 kg/ha.",
+    "spacing": "Row 15 cm, plant 7-10 cm.",
+    "irrigation_schedule": "Light irrigation immediately after sowing, then weekly. Stop irrigation 2 weeks before harvest.",
+    "fertilizer_management": "Apply 100 kg N, 50 kg P, 50 kg K + FYM. Half N and full P,K basal; half N top dress at 30 DAS.",
+    "weed_management": "Pre-emergence Pendimethalin + hand weeding at 40 DAS.",
+    "pest_and_disease_management": "Thrips: dimethoate; purple blotch: mancozeb spray.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "10",
+        "description": "Cloves sprout."
+      },
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "90",
+        "description": "Leaf and bulb development."
+      },
+      {
+        "stage_name": "Bulb maturation",
+        "duration_days": "30",
+        "description": "Bulbs enlarge and tops dry."
+      }
+    ],
+    "life_cycle_duration_days": "130",
+    "harvesting": {
+      "harvest_time": "When tops turn yellow and bulbs are mature (130-150 DAS).",
+      "harvesting_method": "Uproot plants, tie in bundles, cure in shade.",
+      "average_yield_per_hectare": "8 - 12 tonnes"
+    },
+    "post_harvest_handling": "Clean, grade, store in cool dry place with good ventilation."
+  },
+  {
+    "crop_name": "grapes",
+    "scientific_name": "Vitis vinifera",
+    "crop_type": "Fruit",
+    "season": ["Perennial"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy or red sandy loam",
+      "ph_range": "6.5 - 7.5",
+      "drainage": "Excellent drainage essential"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "15 - 35",
+      "rainfall_requirement_mm": "500 - 800",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough deeply, dig pits 1x1x1 m, fill with top soil + 50 kg FYM + 1 kg SSP.",
+    "seed_selection": "Cuttings from recommended varieties (Thompson Seedless, Bangalore Blue).",
+    "sowing_method": "Plant rooted cuttings in pits during Dec-Jan.",
+    "spacing": "3m x 3m or 4m x 2m depending on trellis system.",
+    "irrigation_schedule": "Drip irrigation daily in summer, weekly in winter. Critical: flowering, berry development.",
+    "fertilizer_management": "Apply FYM 20 kg/vine, N 500 g, P 250 g, K 500 g per vine per year in three splits.",
+    "weed_management": "Mulching with plastic; hand weeding.",
+    "pest_and_disease_management": "Powdery mildew: wettable sulfur; thrips: imidacloprid; remove affected bunches.",
+    "growth_stages": [
+      {
+        "stage_name": "Dormancy to bud burst",
+        "duration_days": "30",
+        "description": "Winter pruning; buds sprout."
+      },
+      {
+        "stage_name": "Shoot growth and flowering",
+        "duration_days": "60",
+        "description": "Shoots elongate, flowers appear."
+      },
+      {
+        "stage_name": "Berry development",
+        "duration_days": "90",
+        "description": "Fruit set, growth, and ripening."
+      },
+      {
+        "stage_name": "Harvest and post-harvest",
+        "duration_days": "30",
+        "description": "Bunch maturation and harvest."
+      }
+    ],
+    "life_cycle_duration_days": "210",
+    "harvesting": {
+      "harvest_time": "When berries attain TSS (March-April); harvest in early morning.",
+      "harvesting_method": "Cut bunches with secateurs, handle gently.",
+      "average_yield_per_hectare": "20 - 30 tonnes"
+    },
+    "post_harvest_handling": "Pre-cool, grade, pack in ventilated boxes, store at 0-1°C."
+  },
+  {
+    "crop_name": "horsegram",
+    "scientific_name": "Macrotyloma uniflorum",
+    "crop_type": "Pulse",
+    "season": ["Kharif", "Rabi"],
+    "soil_requirements": {
+      "soil_type": "Well-drained sandy loam to loam, tolerates poor soils",
+      "ph_range": "5.5 - 7.5",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "20 - 30",
+      "rainfall_requirement_mm": "500 - 700",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough once, harrow; no heavy tillage needed.",
+    "seed_selection": "Certified seeds of varieties like AK-21, Paiyur-1; treat with Rhizobium.",
+    "sowing_method": "Broadcasting or line sowing; seed rate 30-40 kg/ha.",
+    "spacing": "Row 30 cm, plant 10 cm.",
+    "irrigation_schedule": "Rainfed crop; one irrigation at pod filling if dry.",
+    "fertilizer_management": "Apply 15 kg N, 40 kg P per ha as basal. No K needed.",
+    "weed_management": "One hand weeding at 30 DAS.",
+    "pest_and_disease_management": "Pod borer: spray quinalphos; leaf spot: mancozeb.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "7",
+        "description": "Seed emergence."
+      },
+      {
+        "stage_name": "Vegetative",
+        "duration_days": "40",
+        "description": "Plant growth."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "20",
+        "description": "Flowering initiation."
+      },
+      {
+        "stage_name": "Pod formation and maturity",
+        "duration_days": "35",
+        "description": "Pods develop and dry."
+      }
+    ],
+    "life_cycle_duration_days": "105",
+    "harvesting": {
+      "harvest_time": "When pods turn brown (100-110 DAS).",
+      "harvesting_method": "Pull plants, sun dry, thresh.",
+      "average_yield_per_hectare": "0.6 - 1.0 tonne"
+    },
+    "post_harvest_handling": "Clean, dry grains, store in bags."
+  },
+  {
+    "crop_name": "jackfruit",
+    "scientific_name": "Artocarpus heterophyllus",
+    "crop_type": "Fruit",
+    "season": ["Perennial"],
+    "soil_requirements": {
+      "soil_type": "Deep well-drained loamy soil",
+      "ph_range": "5.5 - 7.0",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "20 - 35",
+      "rainfall_requirement_mm": "1000 - 2000",
+      "sunlight": "Full sun to partial shade"
+    },
+    "land_preparation": "Dig pits 1x1x1 m, fill with top soil + 20 kg FYM + 1 kg SSP.",
+    "seed_selection": "Seeds from high-yielding trees or grafted seedlings (for uniformity).",
+    "sowing_method": "Plant seedlings in pits during June-July.",
+    "spacing": "8m x 8m or 10m x 10m.",
+    "irrigation_schedule": "Irrigate weekly in dry months; critical during flowering and fruit development.",
+    "fertilizer_management": "Apply 50 kg FYM, 500 g N, 200 g P, 600 g K per tree per year in two splits (June and Oct).",
+    "weed_management": "Basin weeding and mulching.",
+    "pest_and_disease_management": "Shoot borer: remove affected parts; fruit rot: avoid injury and spray copper fungicide.",
+    "growth_stages": [
+      {
+        "stage_name": "Establishment",
+        "duration_days": "730",
+        "description": "Vegetative growth for 2 years."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "90",
+        "description": "Flowers appear on trunk/branches."
+      },
+      {
+        "stage_name": "Fruit development",
+        "duration_days": "180",
+        "description": "Fruits mature over 5-6 months."
+      }
+    ],
+    "life_cycle_duration_days": "730",
+    "harvesting": {
+      "harvest_time": "When fruits mature (summer months), 3-4 years after planting; fruits ripen in 3-5 months after flowering.",
+      "harvesting_method": "Cut fruit stalk with knife, lower carefully.",
+      "average_yield_per_hectare": "10 - 20 tonnes (from 8-10 year old trees)"
+    },
+    "post_harvest_handling": "Store at ambient; ripe fruits can be refrigerated; process bulbs for canning."
+  },
+  {
+    "crop_name": "jowar",
+    "scientific_name": "Sorghum bicolor",
+    "crop_type": "Cereal",
+    "season": ["Kharif", "Rabi"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy or black soil",
+      "ph_range": "6.0 - 8.0",
+      "drainage": "Moderate drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "20 - 35",
+      "rainfall_requirement_mm": "400 - 600",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, level field.",
+    "seed_selection": "Certified seeds of hybrids like CSH-16, CSV-15.",
+    "sowing_method": "Line sowing or drilling; seed rate 8-10 kg/ha.",
+    "spacing": "Row 45 cm, plant 15 cm.",
+    "irrigation_schedule": "Irrigate at critical stages: seedling, vegetative, flowering, grain filling. 3-4 irrigations.",
+    "fertilizer_management": "Apply 80 kg N, 40 kg P, 40 kg K per ha. Basal: half N + full P,K; top dress at 30 and 60 DAS.",
+    "weed_management": "Pre-emergence atrazine + hand weeding at 30 DAS.",
+    "pest_and_disease_management": "Shoot fly: carbofuran in furrows; grain mold: use tolerant varieties.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "10",
+        "description": "Seed emergence."
+      },
+      {
+        "stage_name": "Vegetative",
+        "duration_days": "35",
+        "description": "Tillering and stem growth."
+      },
+      {
+        "stage_name": "Reproductive",
+        "duration_days": "30",
+        "description": "Flowering and grain set."
+      },
+      {
+        "stage_name": "Grain filling and maturity",
+        "duration_days": "35",
+        "description": "Grain development and drying."
+      }
+    ],
+    "life_cycle_duration_days": "110",
+    "harvesting": {
+      "harvest_time": "When grains are hard and moisture 20% (100-110 DAS).",
+      "harvesting_method": "Cut earheads, dry, thresh.",
+      "average_yield_per_hectare": "2.5 - 4.0 tonnes"
+    },
+    "post_harvest_handling": "Dry grains to 12% moisture, store in bins."
+  },
+  {
+    "crop_name": "jute",
+    "scientific_name": "Corchorus olitorius",
+    "crop_type": "Fiber",
+    "season": ["Kharif"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy alluvial soil",
+      "ph_range": "6.0 - 7.5",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "25 - 35",
+      "rainfall_requirement_mm": "1000 - 1500",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, add FYM 10 t/ha.",
+    "seed_selection": "Certified seeds of JRO-524, JRC-321 etc.; treat with fungicide.",
+    "sowing_method": "Broadcasting or line sowing; seed rate 8-10 kg/ha.",
+    "spacing": "Row 30 cm, plant 5-7 cm (thin after emergence).",
+    "irrigation_schedule": "Rainfed; supplemental irrigation if dry spell >2 weeks.",
+    "fertilizer_management": "Apply 60 kg N, 30 kg P, 30 kg K per ha. Basal: half N + full P,K; top dress at 30 DAS.",
+    "weed_management": "Hand weeding at 20 and 40 DAS.",
+    "pest_and_disease_management": "Semilooper: spray quinalphos; stem rot: remove infected plants.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "7",
+        "description": "Seedling emergence."
+      },
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "90",
+        "description": "Rapid stem elongation; main fiber development stage."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "20",
+        "description": "Flowers appear, but fiber quality declines after flowering."
+      }
+    ],
+    "life_cycle_duration_days": "120",
+    "harvesting": {
+      "harvest_time": "At 50% flowering stage (100-120 DAS) for best fiber quality.",
+      "harvesting_method": "Cut plants at base, tie in bundles, ret in water.",
+      "average_yield_per_hectare": "2.0 - 2.5 tonnes (dry fiber)"
+    },
+    "post_harvest_handling": "After retting, strip fiber, wash, dry in sun, and bale."
+  },
+  {
+    "crop_name": "ladyfinger",
+    "scientific_name": "Abelmoschus esculentus",
+    "crop_type": "Vegetable",
+    "season": ["Kharif", "Summer"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy soil rich in organic matter",
+      "ph_range": "6.0 - 7.0",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "25 - 35",
+      "rainfall_requirement_mm": "500 - 800",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, add 20 t/ha FYM, form beds.",
+    "seed_selection": "Hybrid seeds (e.g., Pusa Sawani, Arka Anamika) treated with Trichoderma.",
+    "sowing_method": "Direct sowing on ridges, 2 seeds per hill, later thin.",
+    "spacing": "Row 60 cm, plant 30 cm.",
+    "irrigation_schedule": "Irrigate immediately after sowing, then weekly. Critical at flowering and fruiting.",
+    "fertilizer_management": "Basal: 50 kg N, 30 kg P, 30 kg K + FYM. Top dress with 50 kg N at 30 and 50 DAS.",
+    "weed_management": "Mulching; hand weeding at 20 and 40 DAS.",
+    "pest_and_disease_management": "Shoot and fruit borer: spray emamectin benzoate; yellow vein mosaic: use resistant varieties and control whitefly.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "7",
+        "description": "Seed emergence."
+      },
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "30",
+        "description": "Stem and leaf development."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "15",
+        "description": "Flowers appear."
+      },
+      {
+        "stage_name": "Fruiting",
+        "duration_days": "45",
+        "description": "Fruit set and harvest."
+      }
+    ],
+    "life_cycle_duration_days": "110",
+    "harvesting": {
+      "harvest_time": "50-55 DAS; pick tender fruits every 3-4 days.",
+      "harvesting_method": "Hand picking with stalk.",
+      "average_yield_per_hectare": "10 - 15 tonnes"
+    },
+    "post_harvest_handling": "Grading, packing in mesh bags, store at 10-12°C."
+  },
+  {
+    "crop_name": "maize",
+    "scientific_name": "Zea mays",
+    "crop_type": "Cereal",
+    "season": ["Kharif", "Rabi"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy to clay loam",
+      "ph_range": "5.5 - 7.5",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "20 - 30",
+      "rainfall_requirement_mm": "600 - 800",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, add 10 t/ha FYM, level field.",
+    "seed_selection": "Hybrid seeds (e.g., Deccan 103, Ganga-11) treated with fungicide.",
+    "sowing_method": "Line sowing on ridges or flat beds; seed rate 20-25 kg/ha.",
+    "spacing": "Row 60 cm, plant 20-25 cm.",
+    "irrigation_schedule": "Irrigate at critical stages: knee-high, tasseling, silking, grain filling. 5-6 irrigations.",
+    "fertilizer_management": "Apply 120 kg N, 60 kg P, 40 kg K per ha. Basal: half N + full P,K; top dress at 30 and 60 DAS.",
+    "weed_management": "Pre-emergence atrazine + hand weeding at 30 DAS.",
+    "pest_and_disease_management": "Stem borer: carbofuran granules in whorl; leaf blight: mancozeb spray.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "7",
+        "description": "Seedling emergence."
+      },
+      {
+        "stage_name": "Vegetative",
+        "duration_days": "40",
+        "description": "Stem elongation and leaf growth."
+      },
+      {
+        "stage_name": "Reproductive",
+        "duration_days": "40",
+        "description": "Tasseling, silking, grain set."
+      },
+      {
+        "stage_name": "Grain filling and maturity",
+        "duration_days": "30",
+        "description": "Grain development and drying."
+      }
+    ],
+    "life_cycle_duration_days": "120",
+    "harvesting": {
+      "harvest_time": "When husk turns brown and grains hard (110-120 DAS).",
+      "harvesting_method": "Hand pick cobs, shell grains.",
+      "average_yield_per_hectare": "4 - 6 tonnes"
+    },
+    "post_harvest_handling": "Dry grains to 12-14% moisture, store in bins."
+  },
+  {
+    "crop_name": "mango",
+    "scientific_name": "Mangifera indica",
+    "crop_type": "Fruit",
+    "season": ["Perennial"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy to sandy loam",
+      "ph_range": "5.5 - 7.5",
+      "drainage": "Good drainage essential"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "24 - 30",
+      "rainfall_requirement_mm": "500 - 1000",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Dig pits 1x1x1 m, fill with top soil + 20 kg FYM + 1 kg SSP.",
+    "seed_selection": "Grafted seedlings of varieties (e.g., Alphonso, Dasheri, Banganapalli).",
+    "sowing_method": "Plant grafted seedlings in pits during June-July.",
+    "spacing": "10m x 10m (high density 5m x 5m).",
+    "irrigation_schedule": "Irrigate weekly in dry months; critical during flowering and fruit development. Stop irrigation 2-3 months before flowering for stress induction.",
+    "fertilizer_management": "Apply FYM 50 kg, N 500 g, P 250 g, K 600 g per tree per year in two splits (June and Oct).",
+    "weed_management": "Basin weeding and mulching.",
+    "pest_and_disease_management": "Mango hopper: imidacloprid; powdery mildew: wettable sulfur; fruit fly: bait traps.",
+    "growth_stages": [
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "1460",
+        "description": "First 4 years: tree establishment and growth."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "60",
+        "description": "Panicle emergence and bloom (Dec-Feb)."
+      },
+      {
+        "stage_name": "Fruit development",
+        "duration_days": "120",
+        "description": "Fruit set, growth, and ripening (Mar-Jun)."
+      }
+    ],
+    "life_cycle_duration_days": "1460",
+    "harvesting": {
+      "harvest_time": "When fruits mature (April-June); harvest at firm green stage for distant market.",
+      "harvesting_method": "Hand picking with stem using pole harvester.",
+      "average_yield_per_hectare": "10 - 15 tonnes (from 10-year-old trees)"
+    },
+    "post_harvest_handling": "De-sap, wash, grade, pack in boxes. Ripen with ethylene if needed."
+  },
+  {
+    "crop_name": "moong",
+    "scientific_name": "Vigna radiata",
+    "crop_type": "Pulse",
+    "season": ["Kharif", "Rabi", "Summer"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy to sandy loam",
+      "ph_range": "6.0 - 7.5",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "25 - 35",
+      "rainfall_requirement_mm": "500 - 700",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, level field.",
+    "seed_selection": "Certified seeds of varieties like Pusa Vishal, SML 668; treat with Rhizobium.",
+    "sowing_method": "Line sowing or broadcasting; seed rate 15-20 kg/ha.",
+    "spacing": "Row 30 cm, plant 10 cm.",
+    "irrigation_schedule": "Irrigate at branching, flowering and pod filling if no rain.",
+    "fertilizer_management": "Apply 20 kg N, 40 kg P, 20 kg K per ha as basal.",
+    "weed_management": "Pre-emergence Pendimethalin + hand weeding at 30 DAS.",
+    "pest_and_disease_management": "Pod borer: spray quinalphos; yellow mosaic virus: use resistant varieties.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "7",
+        "description": "Seed emergence."
+      },
+      {
+        "stage_name": "Vegetative",
+        "duration_days": "30",
+        "description": "Plant growth."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "15",
+        "description": "Bloom initiation."
+      },
+      {
+        "stage_name": "Pod formation and maturity",
+        "duration_days": "30",
+        "description": "Pod development and drying."
+      }
+    ],
+    "life_cycle_duration_days": "85",
+    "harvesting": {
+      "harvest_time": "When pods turn black (80-90 DAS).",
+      "harvesting_method": "Pull plants, sun dry, thresh.",
+      "average_yield_per_hectare": "0.8 - 1.2 tonnes"
+    },
+    "post_harvest_handling": "Clean, dry grains, store in bags."
+  },
+  {
+    "crop_name": "onion",
+    "scientific_name": "Allium cepa",
+    "crop_type": "Vegetable",
+    "season": ["Rabi", "Kharif"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy soil rich in organic matter",
+      "ph_range": "6.0 - 7.0",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "15 - 25",
+      "rainfall_requirement_mm": "400 - 600",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, add 25 t/ha FYM, form raised beds.",
+    "seed_selection": "Certified seeds (e.g., Agrifound Dark Red, Pusa Red) or sets.",
+    "sowing_method": "Nursery raising; transplant 6-8 week old seedlings; seed rate 8-10 kg/ha.",
+    "spacing": "Row 15 cm, plant 10 cm.",
+    "irrigation_schedule": "Light irrigation after transplant, then weekly. Stop irrigation 2 weeks before harvest.",
+    "fertilizer_management": "Apply 100 kg N, 50 kg P, 80 kg K + FYM. Basal: half N + full P,K; top dress at 30 and 50 DAT.",
+    "weed_management": "Pre-emergence Pendimethalin + hand weeding at 40 DAS.",
+    "pest_and_disease_management": "Thrips: dimethoate; purple blotch: mancozeb spray.",
+    "growth_stages": [
+      {
+        "stage_name": "Seedling",
+        "duration_days": "45",
+        "description": "Nursery stage."
+      },
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "60",
+        "description": "Bulb initiation and growth."
+      },
+      {
+        "stage_name": "Bulb maturation",
+        "duration_days": "30",
+        "description": "Bulb enlargement and neck fall."
+      }
+    ],
+    "life_cycle_duration_days": "135",
+    "harvesting": {
+      "harvest_time": "When tops fall over and bulbs mature (130-150 DAS).",
+      "harvesting_method": "Uproot, leave in field for curing, then cut tops.",
+      "average_yield_per_hectare": "20 - 30 tonnes"
+    },
+    "post_harvest_handling": "Cure in shade for 2-3 weeks, grade, store in ventilated structures."
+  },
+  {
+    "crop_name": "orange",
+    "scientific_name": "Citrus reticulata",
+    "crop_type": "Fruit",
+    "season": ["Perennial"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy to sandy loam",
+      "ph_range": "5.5 - 6.5",
+      "drainage": "Excellent drainage essential"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "15 - 30",
+      "rainfall_requirement_mm": "1000 - 1500",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Dig pits 1x1x1 m, fill with top soil + 20 kg FYM + 1 kg SSP.",
+    "seed_selection": "Budded plants on rough lemon rootstock (e.g., Nagpur Mandarin, Coorg Mandarin).",
+    "sowing_method": "Plant budded plants in pits during June-July.",
+    "spacing": "5m x 5m or 6m x 6m.",
+    "irrigation_schedule": "Drip irrigation daily in summer, weekly in winter. Critical during flowering and fruit development.",
+    "fertilizer_management": "Apply FYM 50 kg, N 600 g, P 200 g, K 400 g per tree per year in two splits (June and Oct).",
+    "weed_management": "Basin weeding and mulching.",
+    "pest_and_disease_management": "Citrus leaf miner: imidacloprid; fruit fly: bait traps; gummosis: scrape and apply Bordeaux paste.",
+    "growth_stages": [
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "730",
+        "description": "First 2 years: tree establishment."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "30",
+        "description": "Bloom (Feb-March)."
+      },
+      {
+        "stage_name": "Fruit development",
+        "duration_days": "210",
+        "description": "Fruit set, growth, and ripening (harvest Nov-Jan)."
+      }
+    ],
+    "life_cycle_duration_days": "730",
+    "harvesting": {
+      "harvest_time": "When fruits develop characteristic colour and TSS (Nov-Jan).",
+      "harvesting_method": "Hand picking with clippers, avoid stem puncture.",
+      "average_yield_per_hectare": "15 - 20 tonnes (from 5-6 year old trees)"
+    },
+    "post_harvest_handling": "Wash, treat with fungicide, wax, grade, pack in boxes."
+  },
+  {
+    "crop_name": "papaya",
+    "scientific_name": "Carica papaya",
+    "crop_type": "Fruit",
+    "season": ["Perennial"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy soil rich in organic matter",
+      "ph_range": "6.0 - 6.5",
+      "drainage": "Good drainage essential"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "25 - 35",
+      "rainfall_requirement_mm": "1000 - 1500",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough deeply, dig pits 60x60x60 cm, fill with top soil + 15 kg FYM.",
+    "seed_selection": "Certified seeds of varieties like Pusa Delicious, Red Lady (hybrid).",
+    "sowing_method": "Nursery raising; transplant 2-month old seedlings in pits.",
+    "spacing": "1.8m x 1.8m (for hybrid).",
+    "irrigation_schedule": "Drip irrigation daily in summer, weekly in winter. Critical during flowering and fruit development.",
+    "fertilizer_management": "Apply 20 kg FYM, 250 g N, 250 g P, 500 g K per plant per year in four splits.",
+    "weed_management": "Mulching and hand weeding.",
+    "pest_and_disease_management": "Papaya mealybug: imidacloprid; mosaic virus: control aphids and remove infected plants; root rot: drench with copper fungicide.",
+    "growth_stages": [
+      {
+        "stage_name": "Seedling",
+        "duration_days": "60",
+        "description": "Nursery."
+      },
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "180",
+        "description": "Rapid growth, flowering starts at 4-6 months."
+      },
+      {
+        "stage_name": "Fruiting",
+        "duration_days": "365",
+        "description": "Continuous fruiting over year."
+      }
+    ],
+    "life_cycle_duration_days": "730",
+    "harvesting": {
+      "harvest_time": "Fruits mature 9-11 months after planting; harvest when 1/4 yellow.",
+      "harvesting_method": "Hand twist or cut with stalk.",
+      "average_yield_per_hectare": "50 - 75 tonnes"
+    },
+    "post_harvest_handling": "Ripen at 20-25°C; store at 10°C."
+  },
+  {
+    "crop_name": "pineapple",
+    "scientific_name": "Ananas comosus",
+    "crop_type": "Fruit",
+    "season": ["Perennial"],
+    "soil_requirements": {
+      "soil_type": "Well-drained sandy loam rich in organic matter",
+      "ph_range": "5.0 - 6.0",
+      "drainage": "Good drainage essential"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "22 - 32",
+      "rainfall_requirement_mm": "1500 - 2000",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough, form raised beds or contour planting on slopes; add 25 t/ha FYM.",
+    "seed_selection": "Suckers or crown slips from varieties like Kew, Queen.",
+    "sowing_method": "Plant suckers in beds during June-July.",
+    "spacing": "60 cm x 30 cm (double row) or 90 x 30 cm.",
+    "irrigation_schedule": "Drip irrigation; keep soil moist, especially during fruit development.",
+    "fertilizer_management": "Apply 500 kg N, 200 kg P, 600 kg K per ha per year in splits every 3-4 months.",
+    "weed_management": "Mulching with plastic or straw; hand weeding.",
+    "pest_and_disease_management": "Mealybugs: imidacloprid; heart rot: drench with copper oxychloride.",
+    "growth_stages": [
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "300",
+        "description": "Plant develops leaves and stem."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "60",
+        "description": "Inflorescence emergence after induction."
+      },
+      {
+        "stage_name": "Fruit development",
+        "duration_days": "180",
+        "description": "Fruit grows and matures."
+      }
+    ],
+    "life_cycle_duration_days": "540",
+    "harvesting": {
+      "harvest_time": "When fruits turn yellow (15-18 months after planting).",
+      "harvesting_method": "Cut fruit with stalk, leave crown intact.",
+      "average_yield_per_hectare": "40 - 60 tonnes"
+    },
+    "post_harvest_handling": "Cool immediately, pack in crates, store at 7-10°C."
+  },
+  {
+    "crop_name": "potato",
+    "scientific_name": "Solanum tuberosum",
+    "crop_type": "Vegetable",
+    "season": ["Rabi"],
+    "soil_requirements": {
+      "soil_type": "Well-drained sandy loam to loam",
+      "ph_range": "5.5 - 6.5",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "15 - 25",
+      "rainfall_requirement_mm": "400 - 500",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, add 25 t/ha FYM, form ridges and furrows.",
+    "seed_selection": "Certified disease-free tubers (e.g., Kufri Jyoti, Kufri Bahar).",
+    "sowing_method": "Plant whole or cut tubers (with 2-3 eyes) in ridges; seed rate 2-2.5 t/ha.",
+    "spacing": "Row 60 cm, plant 20 cm.",
+    "irrigation_schedule": "Light irrigation after planting, then weekly. Critical at tuber initiation and bulking.",
+    "fertilizer_management": "Apply 120 kg N, 80 kg P, 120 kg K + FYM. Basal: half N + full P,K; top dress at 30 DAS.",
+    "weed_management": "Pre-emergence metribuzin + earthing up at 40 DAS.",
+    "pest_and_disease_management": "Late blight: mancozeb spray; tuber moth: avoid deep planting and harvest early.",
+    "growth_stages": [
+      {
+        "stage_name": "Sprouting",
+        "duration_days": "15",
+        "description": "Tubers sprout."
+      },
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "45",
+        "description": "Stem and leaf growth."
+      },
+      {
+        "stage_name": "Tuber initiation",
+        "duration_days": "20",
+        "description": "Tubers begin to form."
+      },
+      {
+        "stage_name": "Tuber bulking",
+        "duration_days": "50",
+        "description": "Tuber enlargement and maturity."
+      }
+    ],
+    "life_cycle_duration_days": "130",
+    "harvesting": {
+      "harvest_time": "When tops dry and skin set (110-130 DAS).",
+      "harvesting_method": "Dig with spade or potato digger, collect tubers.",
+      "average_yield_per_hectare": "20 - 30 tonnes"
+    },
+    "post_harvest_handling": "Cure in shade for a week, grade, store in cool, dark place."
+  },
+  {
+    "crop_name": "pumpkin",
+    "scientific_name": "Cucurbita moschata",
+    "crop_type": "Vegetable",
+    "season": ["Kharif", "Summer"],
+    "soil_requirements": {
+      "soil_type": "Well-drained sandy loam to loam",
+      "ph_range": "6.0 - 7.0",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "25 - 35",
+      "rainfall_requirement_mm": "600 - 900",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, add 20 t/ha FYM, form pits or raised beds.",
+    "seed_selection": "Hybrid seeds (e.g., Arka Suryamukhi, Pusa Vikas) treated with Trichoderma.",
+    "sowing_method": "Direct sowing in pits, 2-3 seeds per pit, later thin.",
+    "spacing": "2m x 1.5m (for trailing) or 1.5m x 1m.",
+    "irrigation_schedule": "Weekly irrigation; critical at flowering and fruit set. Mulch to conserve moisture.",
+    "fertilizer_management": "Basal: 50 kg N, 30 kg P, 30 kg K + FYM. Top dress with 50 kg N at 30 and 50 DAS.",
+    "weed_management": "Mulching; hand weeding at 30 DAS.",
+    "pest_and_disease_management": "Fruit fly: pheromone traps; powdery mildew: sulfur spray.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "7",
+        "description": "Seeds sprout."
+      },
+      {
+        "stage_name": "Vine growth",
+        "duration_days": "40",
+        "description": "Rapid vine elongation."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "15",
+        "description": "Flowers appear."
+      },
+      {
+        "stage_name": "Fruiting",
+        "duration_days": "60",
+        "description": "Fruit set and development."
+      }
+    ],
+    "life_cycle_duration_days": "120",
+    "harvesting": {
+      "harvest_time": "When fruits mature and skin hardens (90-120 DAS).",
+      "harvesting_method": "Cut fruit with stalk using knife.",
+      "average_yield_per_hectare": "25 - 35 tonnes"
+    },
+    "post_harvest_handling": "Store in cool dry place; can be kept for months."
+  },
+  {
+    "crop_name": "radish",
+    "scientific_name": "Raphanus sativus",
+    "crop_type": "Vegetable",
+    "season": ["Rabi", "Kharif"],
+    "soil_requirements": {
+      "soil_type": "Well-drained sandy loam rich in organic matter",
+      "ph_range": "6.0 - 7.0",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "15 - 25",
+      "rainfall_requirement_mm": "400 - 600",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, add 20 t/ha FYM, form raised beds.",
+    "seed_selection": "Certified seeds of varieties like Pusa Chetki, Pusa Himani.",
+    "sowing_method": "Direct sowing on ridges or flat beds; seed rate 10-12 kg/ha.",
+    "spacing": "Row 30 cm, plant 10 cm.",
+    "irrigation_schedule": "Light irrigation after sowing, then every 5-7 days. Avoid water stress for quality roots.",
+    "fertilizer_management": "Apply 50 kg N, 30 kg P, 30 kg K + FYM as basal. Top dress with 25 kg N at 30 DAS.",
+    "weed_management": "Hand weeding at 20 DAS.",
+    "pest_and_disease_management": "Aphids: dimethoate; leaf spot: mancozeb.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "7",
+        "description": "Seed emergence."
+      },
+      {
+        "stage_name": "Root development",
+        "duration_days": "40",
+        "description": "Taproot enlargement."
+      },
+      {
+        "stage_name": "Maturity",
+        "duration_days": "15",
+        "description": "Roots reach marketable size."
+      }
+    ],
+    "life_cycle_duration_days": "65",
+    "harvesting": {
+      "harvest_time": "When roots are tender (40-60 DAS).",
+      "harvesting_method": "Pull roots by hand.",
+      "average_yield_per_hectare": "20 - 30 tonnes"
+    },
+    "post_harvest_handling": "Trim tops, wash, pack in bags, store at 0°C with high humidity."
+  },
+  {
+    "crop_name": "ragi",
+    "scientific_name": "Eleusine coracana",
+    "crop_type": "Cereal",
+    "season": ["Kharif", "Rabi"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy to red soils",
+      "ph_range": "5.5 - 7.0",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "20 - 30",
+      "rainfall_requirement_mm": "500 - 700",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, level field.",
+    "seed_selection": "Certified seeds of varieties like GPU-28, MR-1.",
+    "sowing_method": "Broadcasting or line sowing; seed rate 8-10 kg/ha.",
+    "spacing": "Row 25 cm, plant 10 cm.",
+    "irrigation_schedule": "Rainfed; if irrigated, at critical stages: tillering, flowering, grain filling.",
+    "fertilizer_management": "Apply 40 kg N, 20 kg P, 20 kg K per ha. Basal: half N + full P,K; top dress at 30 DAS.",
+    "weed_management": "Hand weeding at 20 and 40 DAS.",
+    "pest_and_disease_management": "Blast: tricyclazole spray; shoot fly: carbofuran.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "7",
+        "description": "Seed emergence."
+      },
+      {
+        "stage_name": "Vegetative",
+        "duration_days": "40",
+        "description": "Tillering and leaf growth."
+      },
+      {
+        "stage_name": "Reproductive",
+        "duration_days": "30",
+        "description": "Flowering and grain set."
+      },
+      {
+        "stage_name": "Grain filling and maturity",
+        "duration_days": "30",
+        "description": "Grain development."
+      }
+    ],
+    "life_cycle_duration_days": "110",
+    "harvesting": {
+      "harvest_time": "When ears turn brown and grains hard (100-110 DAS).",
+      "harvesting_method": "Cut ears, dry, thresh.",
+      "average_yield_per_hectare": "2.0 - 3.0 tonnes"
+    },
+    "post_harvest_handling": "Dry grains to 12% moisture, store."
+  },
+  {
+    "crop_name": "rapeseed",
+    "scientific_name": "Brassica campestris",
+    "crop_type": "Oilseed",
+    "season": ["Rabi"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy to clay loam",
+      "ph_range": "5.5 - 7.5",
+      "drainage": "Moderate drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "10 - 25",
+      "rainfall_requirement_mm": "400 - 600",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, level field.",
+    "seed_selection": "Certified seeds of varieties like Pusa Bold, RLM 619.",
+    "sowing_method": "Line sowing or broadcasting; seed rate 5-6 kg/ha.",
+    "spacing": "Row 30 cm, plant 10 cm.",
+    "irrigation_schedule": "Irrigate at flowering and siliqua filling; avoid water stress.",
+    "fertilizer_management": "Apply 80 kg N, 40 kg P, 40 kg K per ha. Basal: half N + full P,K; top dress at 30 DAS.",
+    "weed_management": "Pre-emergence Pendimethalin + hand weeding at 30 DAS.",
+    "pest_and_disease_management": "Aphids: imidacloprid; white rust: metalaxyl spray.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "7",
+        "description": "Seed emergence."
+      },
+      {
+        "stage_name": "Vegetative",
+        "duration_days": "45",
+        "description": "Rosette formation and stem growth."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "30",
+        "description": "Bloom and pod initiation."
+      },
+      {
+        "stage_name": "Pod filling and maturity",
+        "duration_days": "30",
+        "description": "Seed development."
+      }
+    ],
+    "life_cycle_duration_days": "120",
+    "harvesting": {
+      "harvest_time": "When pods turn yellow and seeds hard (110-120 DAS).",
+      "harvesting_method": "Cut plants, dry, thresh.",
+      "average_yield_per_hectare": "1.5 - 2.5 tonnes"
+    },
+    "post_harvest_handling": "Clean, dry seeds to 8% moisture, store in bags."
+  },
+  {
+    "crop_name": "rice",
+    "scientific_name": "Oryza sativa",
+    "crop_type": "Cereal",
+    "season": ["Kharif", "Rabi"],
+    "soil_requirements": {
+      "soil_type": "Clay loam with good water retention",
+      "ph_range": "5.5 - 7.0",
+      "drainage": "Poor to moderate (puddled conditions)"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "20 - 35",
+      "rainfall_requirement_mm": "1000 - 1500",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Puddle field with 2-3 ploughings in standing water, level.",
+    "seed_selection": "Certified seeds of high-yielding varieties (e.g., Pusa 44, MTU 1010).",
+    "sowing_method": "Transplanting 25-30 day old seedlings in puddled field; seed rate 25-30 kg/ha.",
+    "spacing": "Row 20 cm, plant 15 cm.",
+    "irrigation_schedule": "Maintain 2-5 cm standing water throughout crop growth; drain before harvest.",
+    "fertilizer_management": "Apply 120 kg N, 60 kg P, 60 kg K per ha. Basal: half N + full P,K; top dress at tillering and panicle initiation.",
+    "weed_management": "Pre-emergence butachlor + hand weeding at 30 DAT.",
+    "pest_and_disease_management": "Stem borer: carbofuran; blast: tricyclazole; bacterial blight: resistant varieties.",
+    "growth_stages": [
+      {
+        "stage_name": "Nursery",
+        "duration_days": "25",
+        "description": "Seedling raising."
+      },
+      {
+        "stage_name": "Tillering",
+        "duration_days": "45",
+        "description": "Tiller production."
+      },
+      {
+        "stage_name": "Panicle initiation",
+        "duration_days": "30",
+        "description": "Reproductive stage."
+      },
+      {
+        "stage_name": "Grain filling and maturity",
+        "duration_days": "40",
+        "description": "Grain development."
+      }
+    ],
+    "life_cycle_duration_days": "140",
+    "harvesting": {
+      "harvest_time": "When grains turn golden and moisture 20-25% (135-150 DAS).",
+      "harvesting_method": "Manual harvesting with sickle or combine.",
+      "average_yield_per_hectare": "4 - 6 tonnes"
+    },
+    "post_harvest_handling": "Thresh, dry grains to 14% moisture, store in bins."
+  },
+  {
+    "crop_name": "soyabean",
+    "scientific_name": "Glycine max",
+    "crop_type": "Oilseed/Pulse",
+    "season": ["Kharif"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy soil",
+      "ph_range": "6.0 - 7.0",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "20 - 30",
+      "rainfall_requirement_mm": "600 - 800",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, level field.",
+    "seed_selection": "Certified seeds of varieties like JS-335, NRC-37; treat with Rhizobium.",
+    "sowing_method": "Line sowing; seed rate 60-80 kg/ha.",
+    "spacing": "Row 45 cm, plant 5 cm.",
+    "irrigation_schedule": "Irrigate at flowering and pod filling if dry; avoid waterlogging.",
+    "fertilizer_management": "Apply 20 kg N, 60 kg P, 40 kg K per ha as basal.",
+    "weed_management": "Pre-emergence Pendimethalin + hand weeding at 30 DAS.",
+    "pest_and_disease_management": "Girdle beetle: spray quinalphos; leaf spot: mancozeb.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "7",
+        "description": "Seed emergence."
+      },
+      {
+        "stage_name": "Vegetative",
+        "duration_days": "40",
+        "description": "Node formation."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "25",
+        "description": "Bloom and pod set."
+      },
+      {
+        "stage_name": "Pod filling and maturity",
+        "duration_days": "35",
+        "description": "Seed development."
+      }
+    ],
+    "life_cycle_duration_days": "110",
+    "harvesting": {
+      "harvest_time": "When leaves yellow and pods turn brown (100-110 DAS).",
+      "harvesting_method": "Cut plants, dry, thresh.",
+      "average_yield_per_hectare": "1.5 - 2.5 tonnes"
+    },
+    "post_harvest_handling": "Dry seeds to 12% moisture, store in bags."
+  },
+  {
+    "crop_name": "sunflower",
+    "scientific_name": "Helianthus annuus",
+    "crop_type": "Oilseed",
+    "season": ["Kharif", "Rabi"],
+    "soil_requirements": {
+      "soil_type": "Well-drained sandy loam to clay loam",
+      "ph_range": "6.0 - 7.5",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "20 - 30",
+      "rainfall_requirement_mm": "400 - 600",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, level field.",
+    "seed_selection": "Hybrid seeds (e.g., DRSH-1, KBSH-44) treated with fungicide.",
+    "sowing_method": "Line sowing; seed rate 5-6 kg/ha.",
+    "spacing": "Row 60 cm, plant 30 cm.",
+    "irrigation_schedule": "Irrigate at critical stages: seedling, flowering, seed filling. 3-4 irrigations.",
+    "fertilizer_management": "Apply 60 kg N, 40 kg P, 30 kg K per ha. Basal: half N + full P,K; top dress at 30 DAS.",
+    "weed_management": "Pre-emergence Pendimethalin + hand weeding at 30 DAS.",
+    "pest_and_disease_management": "Helicoverpa: spray emamectin; rust: mancozeb.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "10",
+        "description": "Seed emergence."
+      },
+      {
+        "stage_name": "Vegetative",
+        "duration_days": "40",
+        "description": "Stem and leaf growth."
+      },
+      {
+        "stage_name": "Reproductive",
+        "duration_days": "30",
+        "description": "Flowering and seed set."
+      },
+      {
+        "stage_name": "Maturity",
+        "duration_days": "30",
+        "description": "Seed filling and drying."
+      }
+    ],
+    "life_cycle_duration_days": "110",
+    "harvesting": {
+      "harvest_time": "When back of head turns yellow and seeds hard (100-110 DAS).",
+      "harvesting_method": "Cut heads, dry, thresh.",
+      "average_yield_per_hectare": "1.5 - 2.5 tonnes"
+    },
+    "post_harvest_handling": "Dry seeds to 9% moisture, store in cool place."
+  },
+  {
+    "crop_name": "sweetpotato",
+    "scientific_name": "Ipomoea batatas",
+    "crop_type": "Vegetable",
+    "season": ["Kharif"],
+    "soil_requirements": {
+      "soil_type": "Well-drained sandy loam",
+      "ph_range": "5.5 - 6.5",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "20 - 30",
+      "rainfall_requirement_mm": "600 - 800",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, add 10 t/ha FYM, form ridges.",
+    "seed_selection": "Vine cuttings (30 cm long) from healthy plants of varieties like Sree Bhadra, Sankar.",
+    "sowing_method": "Plant cuttings on ridges at 45° angle, leaving 2-3 leaves above ground.",
+    "spacing": "Row 60 cm, plant 30 cm.",
+    "irrigation_schedule": "Irrigate after planting, then weekly. Stop 2 weeks before harvest.",
+    "fertilizer_management": "Apply 50 kg N, 30 kg P, 60 kg K per ha. Basal: half N + full P,K; top dress at 30 DAS.",
+    "weed_management": "Hand weeding at 30 and 50 DAS.",
+    "pest_and_disease_management": "Weevil: dip cuttings in chlorpyriphos; leaf spot: mancozeb.",
+    "growth_stages": [
+      {
+        "stage_name": "Sprouting",
+        "duration_days": "15",
+        "description": "Cuttings establish."
+      },
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "60",
+        "description": "Vine growth and tuber initiation."
+      },
+      {
+        "stage_name": "Tuber bulking",
+        "duration_days": "45",
+        "description": "Tuber enlargement."
+      }
+    ],
+    "life_cycle_duration_days": "120",
+    "harvesting": {
+      "harvest_time": "When tubers are mature (100-120 DAS).",
+      "harvesting_method": "Dig out tubers, avoid damage.",
+      "average_yield_per_hectare": "15 - 20 tonnes"
+    },
+    "post_harvest_handling": "Cure at 30°C for a week, store in cool dry place."
+  },
+  {
+    "crop_name": "tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "crop_type": "Vegetable",
+    "season": ["Rabi", "Kharif"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy soil rich in organic matter",
+      "ph_range": "6.0 - 7.0",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "20 - 30",
+      "rainfall_requirement_mm": "500 - 700",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, add 25 t/ha FYM, form beds.",
+    "seed_selection": "Hybrid seeds (e.g., Arka Vikas, Pusa Ruby) treated with Trichoderma.",
+    "sowing_method": "Nursery raising; transplant 4-5 week old seedlings.",
+    "spacing": "Row 75 cm, plant 60 cm.",
+    "irrigation_schedule": "Irrigate immediately after transplant, then weekly. Critical at flowering and fruit set. Drip preferred.",
+    "fertilizer_management": "Apply 120 kg N, 80 kg P, 80 kg K + FYM. Basal: half N + full P,K; top dress at 30 and 50 DAT.",
+    "weed_management": "Mulching; hand weeding at 30 DAT.",
+    "pest_and_disease_management": "Fruit borer: emamectin benzoate; leaf curl: control whitefly; early blight: mancozeb.",
+    "growth_stages": [
+      {
+        "stage_name": "Seedling",
+        "duration_days": "30",
+        "description": "Nursery."
+      },
+      {
+        "stage_name": "Vegetative",
+        "duration_days": "30",
+        "description": "Plant growth after transplant."
+      },
+      {
+        "stage_name": "Flowering",
+        "duration_days": "20",
+        "description": "Bloom initiation."
+      },
+      {
+        "stage_name": "Fruiting",
+        "duration_days": "50",
+        "description": "Fruit set, development, and harvest."
+      }
+    ],
+    "life_cycle_duration_days": "130",
+    "harvesting": {
+      "harvest_time": "When fruits turn red/ripe (70-90 DAT); harvest every 3-4 days.",
+      "harvesting_method": "Hand picking with stalk.",
+      "average_yield_per_hectare": "25 - 35 tonnes"
+    },
+    "post_harvest_handling": "Grade, pack in crates, store at 10-12°C."
+  },
+  {
+    "crop_name": "turmeric",
+    "scientific_name": "Curcuma longa",
+    "crop_type": "Spice",
+    "season": ["Kharif"],
+    "soil_requirements": {
+      "soil_type": "Well-drained sandy loam or loamy soil rich in organic matter",
+      "ph_range": "5.5 - 6.5",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "20 - 30",
+      "rainfall_requirement_mm": "1000 - 1500",
+      "sunlight": "Partial shade or full sun"
+    },
+    "land_preparation": "Plough to fine tilth, add 25 t/ha FYM, form raised beds or ridges.",
+    "seed_selection": "Healthy rhizomes with good sprouts (e.g., varieties like Erode local, Salem).",
+    "sowing_method": "Plant rhizome bits (5-7 cm) on ridges, 5 cm deep; seed rate 2-2.5 t/ha.",
+    "spacing": "Row 30 cm, plant 25 cm.",
+    "irrigation_schedule": "Irrigate after planting, then weekly. Critical during tillering and rhizome development.",
+    "fertilizer_management": "Apply 120 kg N, 60 kg P, 120 kg K per ha. Basal: half N + full P,K; top dress at 60 and 120 DAS.",
+    "weed_management": "Mulching; hand weeding at 60 and 120 DAS.",
+    "pest_and_disease_management": "Rhizome rot: drench with copper oxychloride; leaf blotch: mancozeb.",
+    "growth_stages": [
+      {
+        "stage_name": "Sprouting",
+        "duration_days": "30",
+        "description": "Rhizomes sprout."
+      },
+      {
+        "stage_name": "Vegetative growth",
+        "duration_days": "120",
+        "description": "Tillering and leaf growth."
+      },
+      {
+        "stage_name": "Rhizome development",
+        "duration_days": "120",
+        "description": "Rhizome bulking."
+      },
+      {
+        "stage_name": "Maturity",
+        "duration_days": "30",
+        "description": "Leaves dry, rhizomes mature."
+      }
+    ],
+    "life_cycle_duration_days": "270",
+    "harvesting": {
+      "harvest_time": "When leaves turn yellow and dry (8-9 months after planting).",
+      "harvesting_method": "Dig clumps, separate rhizomes.",
+      "average_yield_per_hectare": "20 - 25 tonnes (fresh)"
+    },
+    "post_harvest_handling": "Boil rhizomes, dry in sun, polish to get dry turmeric."
+  },
+  {
+    "crop_name": "wheat",
+    "scientific_name": "Triticum aestivum",
+    "crop_type": "Cereal",
+    "season": ["Rabi"],
+    "soil_requirements": {
+      "soil_type": "Well-drained loamy to clay loam",
+      "ph_range": "6.0 - 7.5",
+      "drainage": "Good drainage"
+    },
+    "climate_requirements": {
+      "temperature_range_celsius": "10 - 25",
+      "rainfall_requirement_mm": "400 - 600",
+      "sunlight": "Full sun"
+    },
+    "land_preparation": "Plough to fine tilth, level field.",
+    "seed_selection": "Certified seeds of varieties like HD 2967, PBW 343; treat with fungicide.",
+    "sowing_method": "Line sowing or drilling; seed rate 100-125 kg/ha.",
+    "spacing": "Row 22-25 cm, plant 5 cm.",
+    "irrigation_schedule": "Irrigate at crown root initiation, tillering, jointing, flowering, and grain filling (5-6 irrigations).",
+    "fertilizer_management": "Apply 120 kg N, 60 kg P, 40 kg K per ha. Basal: half N + full P,K; top dress at 30 and 60 DAS.",
+    "weed_management": "Pre-emergence Pendimethalin or sulfosulfuron + hand weeding.",
+    "pest_and_disease_management": "Aphids: dimethoate; rust: propiconazole; use resistant varieties.",
+    "growth_stages": [
+      {
+        "stage_name": "Germination",
+        "duration_days": "10",
+        "description": "Seed emergence."
+      },
+      {
+        "stage_name": "Tillering",
+        "duration_days": "40",
+        "description": "Formation of side shoots."
+      },
+      {
+        "stage_name": "Stem elongation",
+        "duration_days": "30",
+        "description": "Jointing and booting."
+      },
+      {
+        "stage_name": "Flowering and grain filling",
+        "duration_days": "40",
+        "description": "Anthesis and grain development."
+      },
+      {
+        "stage_name": "Ripening",
+        "duration_days": "20",
+        "description": "Grain maturity."
+      }
+    ],
+    "life_cycle_duration_days": "140",
+    "harvesting": {
+      "harvest_time": "When straw turns yellow and grains hard (April).",
+      "harvesting_method": "Combine or manual harvesting with sickle.",
+      "average_yield_per_hectare": "4 - 5 tonnes"
+    },
+    "post_harvest_handling": "Thresh, clean, dry grains to 12% moisture, store in bins."
+  }
+]
